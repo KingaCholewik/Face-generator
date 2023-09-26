@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App Face Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <form id="form">
+      <select id="gender">
+        <option value="female">Kobieta</option>
+        <option value="male">Mężczyzna</option>
+      </select>
+      <select id="ethnicity">
+        <option value="european">Europejczyk</option>
+        <option value="african">Afrykańczyk</option>
+        <option value="east_asian">Azjata</option>
+        <option value="latin_american">Latyno-amerykańczyk</option>
+      </select>
+      <label >Wiek: 
+      <select id="age">
+        <option value="10s">10-20</option>
+        <option value="20s">20-29</option>
+        <option value="30s">30-39</option>
+        <option value="40s">40-49</option>
+        <option value="50s">50-59</option>
+        <option value="60s">60-69</option>
+       
+      </select>
+    </label>
+      <button type="submit">Generuj twarz</button>
+    
+    </form>
+    <div class="header-btn-clear">
+      <button class="clear">Wyczyść</button>
+    </div>
+    
+  </header>
+  
+  <div class="faces">
+
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
